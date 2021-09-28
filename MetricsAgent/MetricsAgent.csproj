@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="nlog.config" />
+  </ItemGroup>
+
+  <ItemGroup>
+PackageReferenceNLogVersion="4.7.11" PackageReference Include="NLog.Web.AspNetCore" Version="4.14.0" />
+    <PackageReferenceSystem.Data.SQLite.Core" Version="1.0.115" />
+    <Content Update="nlog.config" CopyToOutputDirectory="PreserveNewest    <None Include="nlog.config" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NLog.Web.AspNetCore" Version="4.14.0" />
+    <PackageReference Include="System.Data.SQLite.Core" Version="1.0.115" />
+  </ItemGroup>
+
+
+</Project>
